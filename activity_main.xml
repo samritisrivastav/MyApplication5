@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/myfav"
+
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="XOLO"
+        android:textSize="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textColor="#fff"
+        android:id="@+id/first"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/first"
+        android:background="@drawable/rounded_rectangle"
+        android:layout_margin="20dp"
+        android:id="@+id/first_box"
+        >
+       <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:src="@drawable/user"
+           android:padding="10dp"
+        (
+           />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:hint="username"
+            android:textColor="#071312"
+            android:inputType="text"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/first_box"
+        android:background="@drawable/rounded_rectangle"
+        android:layout_margin="20dp"
+        android:id="@+id/second"
+
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/padlock"
+            android:padding="10dp"
+        (
+        />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:hint="password"
+            android:textColor="#071312"
+
+            android:inputType="number"/>
+        </LinearLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="login"
+            android:textSize="20dp"
+            android:background="@drawable/rounded_rectangle"
+            android:layout_below="@id/second"
+            android:backgroundTint="#f28e8e"
+            android:layout_centerInParent="true"
+            />
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
+
